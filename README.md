@@ -22,6 +22,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
+![](https://github.com/daiana-besterekova/HelloWorld1/blob/master/ezgif.com-gif-maker%20(4).gif)
+
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
