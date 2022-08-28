@@ -37,9 +37,13 @@ GIF created with Ezgif.com
 
 Describe any challenges encountered while building the app.
 
+* [X] Creating an emulator and making it display what's been changed in the layout of the page
+* [X] Understanding Toasts and handlers (but achieved it by reading CodePath guides)
+* [X] Getting used to the Android Studio environment
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Daiana Besterekova]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
