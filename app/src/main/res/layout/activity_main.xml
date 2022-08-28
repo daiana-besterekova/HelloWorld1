@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/IntrotextView"
+        android:layout_width="match_parent"
+        android:textColor="@color/purple_500"
+        android:layout_height="wrap_content"
+        android:text="@string/my_name_is_daiana_i_love_cats_and_dogs_i_am_excited_for_the_course"
+        android:layout_margin="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEmoji" />
+
+    <ImageView
+        android:id="@+id/imageViewEmoji"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/istockphoto_186655818_612x612" />
+
+    <Button
+        android:id="@+id/buttonHi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/say_hi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IntrotextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
